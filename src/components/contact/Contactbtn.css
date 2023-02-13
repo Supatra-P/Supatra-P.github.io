@@ -1,0 +1,15 @@
+.ccircle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--white);
+    background-color: var(--black);
+}
+
+.ccircle:hover {
+    border-color: var(--dBlue);
+}
+
+.gap1p1 {
+    gap: 1.1vw;
+}

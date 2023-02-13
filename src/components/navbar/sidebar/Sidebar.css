@@ -1,0 +1,35 @@
+.Sidebar {
+    height: 100vh;
+    width: 30vw;
+    background-color: var(--black);
+    position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .Sidebar {
+        display: none;
+    }
+}
+
+a {
+    color: var(--white);
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dBlue);
+}
+
+a.active {
+    color: var(--dBlue);
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    font-weight: 500;
+    padding: 10vw 0 0 0;
+}

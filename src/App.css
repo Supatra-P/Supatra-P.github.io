@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inter:wght@400;600;800;900&family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --dGrey: #0F0F0F;
+  --dBlue: #226CE0;
+  --pBlue: #7BA8FF;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--white);
+  transition: all .4s ease-in-out;
+  scroll-behavior: smooth;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  background-color: var(--dGrey);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.flex-c-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card {
-  padding: 2em;
+
+.flex-row {
+  display: flex;
 }
 
-.read-the-docs {
-  color: #888;
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gaph8 {
+  gap: 18vh;
+}
+
+.gap5p5 {
+  gap: 5.5vw;
+}
+
+.gap1p5 {
+  gap: 1.5vw;
+}
+
+.gap0p2 {
+  gap: 0.2vw;
 }
