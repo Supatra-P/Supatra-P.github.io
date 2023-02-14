@@ -62,11 +62,7 @@ const Desc = styled.p`
 export function About() {
     return (
         <ContentBox className="flex-c-c">
-            <motion.div
-                variants={itemUp}
-                initial="hidden"
-                animate="visible"
-            >
+            <div className='motionContent'>
                 <SubContentBox>
                     <HeadTitle title='About' />
                     <Content>
@@ -83,7 +79,7 @@ export function About() {
                         </a>
                     </Content>
                 </SubContentBox>
-            </motion.div>
+            </div>
             <PrevsBtn />
         </ContentBox>
     );

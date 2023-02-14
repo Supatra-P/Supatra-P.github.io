@@ -5,11 +5,8 @@ import { motion } from 'framer-motion';
 
 export function SideBar() {
   return (
-    <motion.div className='Sidebar'
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-    >
+    <div className='Sidebar motionFade'>
       <SideMenu />
-    </motion.div>
+    </div>
   );
 }

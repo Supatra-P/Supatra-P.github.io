@@ -1,7 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
-import { itemUp } from '../components/Animation';
 import { HeadTitle } from '../components/HeadTitle';
 import { EtcData, OsData, ProgLanData } from '../assets/data/SkillData';
 import { SkillDecor } from '../components/skill/SkillDecor';
@@ -13,11 +11,7 @@ import { PrevsBtn } from '../components/PrevsBtn';
 export function Skill() {
   return (
     <ContentBox className="flex-c-c">
-      <motion.div
-        variants={itemUp}
-        initial="hidden"
-        animate="visible"
-      >
+      <div className='motionContent'>
         <SubContentBox>
           <HeadTitle title='Skill' />
           <div className='flex-col'>
@@ -33,7 +27,7 @@ export function Skill() {
             <SkillDecor skill={OsData} start={0} stop={5} />
           </div>
         </SubContentBox>
-      </motion.div>
+      </div>
       <PrevsBtn />
     </ContentBox>
   );

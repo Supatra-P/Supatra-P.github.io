@@ -17,15 +17,11 @@ const Content = styled.div`
 export function Portfolio() {
   return (
     <div>
-      <motion.div
-        variants={itemUp}
-        initial="hidden"
-        animate="visible"
-      >
+      <div className='motionContent'>
         <Content>
           <Gallery />
         </Content>
-      </motion.div>
+      </div>
       <PrevsBtn />
     </div>
 

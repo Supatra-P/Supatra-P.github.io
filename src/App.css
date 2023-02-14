@@ -22,6 +22,26 @@
   background-color: var(--dGrey);
 }
 
+.motionContent {
+  animation-name: motionUp;
+  animation-duration: .6s;
+}
+
+@keyframes motionUp {
+  0% {transform: translateY(20px); opacity: 0;}
+  100% {transform: translateY(0px); opacity: 1;}
+}
+
+.motionFade {
+  animation-name: motionFade;
+  animation-duration: .6s;
+}
+
+@keyframes motionFade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 .flex-c-c {
   display: flex;
   justify-content: center;

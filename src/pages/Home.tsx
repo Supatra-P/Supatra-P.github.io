@@ -57,11 +57,7 @@ const LetsBtn = styled.span`
 
 export function Home() {
   return (
-    <motion.div
-      variants={itemUp}
-      initial="hidden"
-      animate="visible"
-    >
+    <div className='motionContent'>
       <SwitchPages>
         <MenuBar />
       </SwitchPages>
@@ -81,6 +77,6 @@ export function Home() {
           </div>
         </div>
       </ContentBoxHome>
-    </motion.div>
+    </div>
   );
 }
