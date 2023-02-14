@@ -126,7 +126,7 @@ Error generating stack: `+o.message+`
     color: var(--dBlue);
     text-decoration: none;
   }
-`;function q2(){return ie(Hn.div,{variants:Ki,initial:"hidden",animate:"visible",children:[A(G2,{children:A(Y2,{})}),A(K2,{className:"flex-c-c",children:ie("div",{className:"flex-row flex-c-c",style:{paddingLeft:"15vw"},children:[A("img",{width:250,style:{borderRadius:"18px"},src:$2,alt:"Supatra profile picture"}),ie("div",{style:{paddingLeft:"4vw"},children:[A(X2,{children:"SUPATRA PINJINDA"}),ie(J2,{children:["Software Engineering",A("br",{}),"at Thammasat University"]}),ie(bi,{to:"/about",children:["> ",A(Z2,{children:"Get Started"})]})]})]})})]})}const Xp="/assets/Supatra-dd9f50ca.png",eA=xe.p`
+`;function q2(){return ie(Hn.div,{variants:Ki,initial:"hidden",animate:"visible",children:[A(G2,{children:A(Y2,{})}),A(K2,{className:"flex-c-c",children:ie("div",{className:"flex-row flex-c-c",style:{paddingLeft:"15vw"},children:[A("img",{width:250,style:{borderRadius:"18px"},src:$2,alt:"Supatra profile picture"}),ie("div",{style:{paddingLeft:"4vw"},children:[A(X2,{children:"SUPATRA PINJINDA"}),ie(J2,{children:["Software Engineering",A("br",{}),"at Thammasat University"]}),ie(bi,{to:"/about",children:["> ",A(Z2,{children:"Get Started"})]})]})]})})]})}const Xp="/assets/Supatra-83e669b6.png",eA=xe.p`
     font-size: xx-large;
 `,tA=xe.div`
     margin: 30px 0;
