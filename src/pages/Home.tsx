@@ -2,8 +2,6 @@ import * as React from "react";
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import gimchi from '../assets/img/gimchi.jpg';
-import { motion } from "framer-motion"
-import { itemUp } from "../components/Animation";
 import { MenuBar } from "../components/navbar/mnavbar/MenuBar";
 
 export const SwitchPages = styled.div`

@@ -1,6 +1,4 @@
 import * as React from 'react';
-import { motion } from 'framer-motion';
-import { itemUp } from '../components/Animation';
 import { Gallery } from '../components/portfolio/Gallery';
 import styled from 'styled-components';
 import { PrevsBtn } from '../components/PrevsBtn';

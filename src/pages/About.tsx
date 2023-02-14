@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import Supatra from '../Supatra.png';
-import { itemUp } from '../components/Animation';
 import { HeadTitle } from '../components/HeadTitle';
 import { ContentBox } from './Home';
 import { PrevsBtn } from '../components/PrevsBtn';

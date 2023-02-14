@@ -1,16 +1,10 @@
 import * as React from 'react';
-import { motion } from 'framer-motion';
-import { itemUp } from '../components/Animation';
 import { HeadTitle } from '../components/HeadTitle';
 import { ContactBtn } from '../components/contact/ContactBtn';
-import { SubContentBox } from './About';
 import { ContentBox } from './Home';
 import { PrevsBtn } from '../components/PrevsBtn';
 
-export interface IContactProps {
-}
-
-export function Contact(props: IContactProps) {
+export function Contact() {
   return (
     <ContentBox>
       <div className='motionContent'>
