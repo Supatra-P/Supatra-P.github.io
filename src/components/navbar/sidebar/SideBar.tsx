@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export function SideBar() {
   return (
-    <div className='Sidebar motionFade'>
+    <div className='Sidebar'>
       <SideMenu />
     </div>
   );

@@ -20,6 +20,8 @@
 
 .App {
   background-color: var(--dGrey);
+  animation-name: motionFade;
+  animation-duration: .6s;
 }
 
 .motionContent {
@@ -30,11 +32,6 @@
 @keyframes motionUp {
   0% {transform: translateY(20px); opacity: 0;}
   100% {transform: translateY(0px); opacity: 1;}
-}
-
-.motionFade {
-  animation-name: motionFade;
-  animation-duration: .6s;
 }
 
 @keyframes motionFade {
