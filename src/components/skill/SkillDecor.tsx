@@ -41,7 +41,7 @@ export const SkillDecor: FC<ISkillDecorProps> = ({ skill, start, stop }) => {
         <div className='flex-row gap1p5'>
             {skill.map((logo: { link: string | undefined; icon: string | undefined; name: string | undefined; }, key: number) => {
                 return (key >= start && key < stop) ?
-                    <a href={logo.link} target="_blank" rel="noreferrer">
+                    <a href={logo.link} target="_blank">
                         <WhiteBox className='flex-c-c'>
                             <img src={logo.icon} alt={logo.name} />
                         </WhiteBox>
