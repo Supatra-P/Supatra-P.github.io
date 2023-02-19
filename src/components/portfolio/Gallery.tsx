@@ -67,7 +67,7 @@ export function Gallery() {
                             </ImgTag>
                             <div className="flex-row gap0p2" style={{paddingTop: '.8vw'}}>
                                 {port.icon.map((skill, key) => {
-                                    return <a href={skill.lan.link} target="_blank"><WhiteBoxmini className="flex-c-c"><img src={skill.lan.icon} alt={skill.lan.name} /></WhiteBoxmini></a>;
+                                    return <a href={skill.lan.link} target="_blank" rel="noreferrer"><WhiteBoxmini className="flex-c-c"><img src={skill.lan.icon} alt={skill.lan.name} /></WhiteBoxmini></a>;
                                 })}
                             </div>
                         </ImgBox>
