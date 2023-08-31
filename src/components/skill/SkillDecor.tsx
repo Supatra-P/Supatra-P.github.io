@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 const WhiteBox = styled.div`
     margin-left: 1vw;
-    width: calc(100vw/18);
-    height: calc(100vw/18);
+    width: calc(100vw/20);
+    height: calc(100vw/20);
     background-color: var(--white);
     border-radius: 12px;
 
@@ -14,8 +14,8 @@ const WhiteBox = styled.div`
     }
     
     img {
-        width: calc(100vw/29);
-        height: calc(100vw/29);
+        width: calc(100vw/30);
+        height: calc(100vw/30);
     }
 
     @media (max-width: 768px) {

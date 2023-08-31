@@ -17,6 +17,10 @@ import linux from '../img/progLogo/linux.png';
 import nodejs from '../img/progLogo/nodejs.png';
 import rabbitmq from '../img/progLogo/rabbitmq.png';
 import firebase from '../img/progLogo/firebase.png';
+import express from '../img/progLogo/express.png';
+import nodejsbold from '../img/progLogo/nodejsbold.png';
+import mongodb from '../img/progLogo/mongo.png';
+import django from '../img/progLogo/django.png';
 
 enum Title {
     html = "HTML",
@@ -38,6 +42,10 @@ enum Title {
     nodejs = "NodeJS",
     rabbitmq = "RabbitMQ",
     firebase = "Firebase",
+    express = "Express",
+    nodejsbold = "NodeJS",
+    mongodb = "MongoDB",
+    django = "Django",
 }
 
 enum Path {
@@ -60,6 +68,10 @@ enum Path {
     nodejs = "https://nodejs.org/en/",
     rabbitmq = "https://www.rabbitmq.com",
     firebase = "https://firebase.google.com",
+    express = 'https://expressjs.com',
+    nodejsbold = "https://nodejs.org/en/",
+    mongodb = "https://www.mongodb.com/",
+    django = "https://www.djangoproject.com/",
 }
 
 export const ProgLanData = [
@@ -117,16 +129,31 @@ export const EtcData = [
         link: Path.flutter,
     },
     {//2
+        name: Title.express,
+        icon: express,
+        link: Path.express,
+    },
+    {//3
         name: Title.ci,
         icon: ci,
         link: Path.ci,
     },
-    {//3
+    {//4
+        name: Title.django,
+        icon: django,
+        link: Path.django,
+    },
+    {//5
         name: Title.mysql,
         icon: mysql,
         link: Path.mysql,
     },
-    {//4
+    {//6
+        name: Title.mongodb,
+        icon: mongodb,
+        link: Path.mongodb,
+    },
+    {//7
         name: Title.git,
         icon: git,
         link: Path.git,

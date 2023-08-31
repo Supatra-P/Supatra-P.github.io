@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   background-color: var(--dGrey);
   animation-name: motionFade;

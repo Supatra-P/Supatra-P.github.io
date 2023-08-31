@@ -13,7 +13,7 @@ import { LogoMB } from './components/navbar/Logo';
 function App() {
 
   return (
-    <div className="App">
+    <div className="App hide-scroll-bar">
       <Router basename='/'>
         <SideBar />
         <LogoMB />
