@@ -23,7 +23,7 @@ export function Skill() {
             <SubTitle>Framework - Library - Database - Version Control</SubTitle>
             <SkillDecor skill={EtcData} start={0} stop={5} />
             <br/>
-            <SkillDecor skill={EtcData} start={5} stop={10} />
+            <SkillDecor skill={EtcData} start={5} stop={EtcData.length} />
             <br />
             <SubTitle>Operating Systems</SubTitle>
             <SkillDecor skill={OsData} start={0} stop={5} />
