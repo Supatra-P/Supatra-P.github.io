@@ -9,6 +9,7 @@ import { Portfolio } from './pages/Portfolio';
 import { Contact } from './pages/Contact';
 import { MenuBar } from './components/navbar/mnavbar/MenuBar';
 import { LogoMB } from './components/navbar/Logo';
+import { Certificate } from './pages/Certificate';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skill" element={<Skill />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/certificate' element={<Certificate />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

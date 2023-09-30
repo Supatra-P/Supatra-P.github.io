@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import Supatra from '../Supatra.png';
 import { HeadTitle } from '../components/HeadTitle';
 import { ContentBox } from './Home';
 import { PrevsBtn } from '../components/PrevsBtn';
@@ -37,7 +36,7 @@ export const SubContentBox = styled.div`
     }
 `;
 
-const Content = styled.div`
+export const Content = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +46,7 @@ const Content = styled.div`
     }
 `;
 
-const Desc = styled.p`
+export const Desc = styled.p`
     width: 30vw;
     padding-right: 2vw;
     line-height: 1.6rem;
@@ -67,12 +66,12 @@ export function About() {
                         <Desc>
                             I am constantly interested in improving my&nbsp;technical skills so that I can create beautiful web applications and mobile applications, and I want to be a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about&nbsp;my work.
                         </Desc>
-                        <a href={Supatra} target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1Lvi7i6_Cr4fAHJCEzVjKQAl4Cts5Rjz3/view?usp=sharing" target="_blank" rel="noreferrer">
                             <ResmBox>
                                 <div style={{ height: "calc(100vw/18)" }}></div>
                                 <p>Here's my</p>
-                                <a href={Supatra} target="_blank" rel="noreferrer"><b>RESUME</b></a>
-                                <p>ー Feb 2023</p>
+                                <a href="https://drive.google.com/file/d/1Lvi7i6_Cr4fAHJCEzVjKQAl4Cts5Rjz3/view?usp=sharing" target="_blank" rel="noreferrer"><b>RESUME/CV</b></a>
+                                <p>ー Oct 2023</p>
                             </ResmBox>
                         </a>
                     </Content>

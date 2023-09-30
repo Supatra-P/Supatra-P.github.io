@@ -8,7 +8,7 @@ enum Title {
 enum Path {
     linkedin = "https://www.linkedin.com/in/supatra-p/",
     github = "https://github.com/Supatra-P",
-    email = "mailto:supatra.pinjinda@gmail.com",
+    email = "mailto:supatra.pinj@gmail.com",
     map = "https://goo.gl/maps/9KZHoQ2RR84m38328"
 }
 
