@@ -64,7 +64,7 @@ export function Certificate() {
           <Content>
             <Desc>
               <br />
-              <h3>Certificate of Attendance</h3>
+              <h3>Certificate of Academic&nbsp;Excellence</h3>
               ー Top 5 GPA
               <br />
               <br />
@@ -72,7 +72,7 @@ export function Certificate() {
                 width={"100%"}
                 style={{ borderRadius: "18px" }}
                 src={scholar_engr_cer}
-                alt="Certificate of Attendance"
+                alt="Certificate of Top 5 GPA"
               />
               <br />
               Major of Software Engineering
