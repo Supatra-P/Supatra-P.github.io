@@ -22,6 +22,10 @@
   display: none;
 }
 
+body {
+  background-color: var(--black);
+}
+
 .App {
   background-color: var(--dGrey);
   animation-name: motionFade;
@@ -60,7 +64,7 @@
 }
 
 .gaph8 {
-  gap: 18vh;
+  gap: 16vh;
 }
 
 .gap5p5 {

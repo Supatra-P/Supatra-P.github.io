@@ -7,9 +7,11 @@ import Cha from '../img/portGal/Cha.png';
 import Uni from '../img/portGal/Uni.png';
 import Des from '../img/portGal/Des.png';
 import Arc from '../img/portGal/Arch.png';
-import { ArcData, ChaData, CuddData, DesData, DreData, EdaData, MasData, RooData, UniData } from './SkillData';
+import Rud from '../img/portGal/Rudy.png';
+import { ArcData, ChaData, CuddData, DesData, DreData, EdaData, MasData, RooData, RudData, UniData } from './SkillData';
 
 enum Title {
+    rud = "Rudy Java Project",
     cudd = "Cuddwords Web Application",
     roo = "Room-Rai Project",
     mas = "Master/Slave Architecture",
@@ -22,6 +24,7 @@ enum Title {
 }
 
 enum Created {
+    rud = "March 2023",
     cudd = "January 2023",
     roo = "November 2022",
     mas = "October 2022",
@@ -34,6 +37,7 @@ enum Created {
 }
 
 enum Path {
+    rud = "Rudy-project",
     cudd = "cudd-words",
     roo = "Room-rai-Project",
     mas = "setup-master-slave-replication-MySQL-on-CentOS7",
@@ -46,6 +50,13 @@ enum Path {
 }
 
 export const PortfolioData = [
+    {
+        name: Title.rud,
+        when: Created.rud,
+        img: Rud,
+        link: Path.rud,
+        icon: RudData,
+    },
     {
         name: Title.cudd,
         when: Created.cudd,

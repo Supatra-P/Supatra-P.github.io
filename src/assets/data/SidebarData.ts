@@ -3,6 +3,7 @@ enum Title {
     about = "About",
     skill = "Skill",
     portfolio = "Portfolio",
+    certificate = "Certificate",
     contact = "Contact"
 }
 
@@ -11,6 +12,7 @@ enum Path {
     about = "/about",
     skill = "/skill",
     porfolio = "/portfolio",
+    certificate = "/certificate",
     contact = "/contact"
 }
 
@@ -30,6 +32,10 @@ export const SidebarData = [
     {
         name: Title.portfolio,
         link: Path.porfolio,
+    },
+    {
+        name: Title.certificate,
+        link: Path.certificate,
     },
     {
         name: Title.contact,

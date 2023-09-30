@@ -196,6 +196,12 @@ export const OtherData = [
     }
 ]
 
+export const RudData = [
+    {
+        lan: ProgLanData[5]
+    }
+]
+
 export const CuddData = [
     {
         lan: ProgLanData[0]

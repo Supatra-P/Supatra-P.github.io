@@ -13,7 +13,7 @@ export function SideMenu() {
                     <Logo />
                     <ul className='flex-col gap1p5'>
                         {SidebarData.map((menu, key) => {
-                            return <li>{(key < 4) ? <NavLink to={menu.link}>{menu.name}</NavLink> : null}</li>;
+                            return <li>{(key < SidebarData.length-1) ? <NavLink to={menu.link}>{menu.name}</NavLink> : null}</li>;
                         })}
                     </ul>
                     <ContactBtn />
