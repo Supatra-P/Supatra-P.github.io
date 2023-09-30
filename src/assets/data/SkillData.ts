@@ -75,47 +75,47 @@ enum Path {
 }
 
 export const ProgLanData = [
-    {//0
-        name: Title.html,
-        icon: html,
-        link: Path.html,
-    },
-    {//1
-        name: Title.css,
-        icon: css,
-        link: Path.css,
-    },
-    {//2
-        name: Title.js,
-        icon: js,
-        link: Path.js,
-    },
-    {//3
-        name: Title.ts,
-        icon: ts,
-        link: Path.ts,
-    },
-    {//4
-        name: Title.dart,
-        icon: dart,
-        link: Path.dart,
-    },
-    {//5
-        name: Title.java,
-        icon: java,
-        link: Path.java,
-    },
-    {//6
-        name: Title.py,
-        icon: py,
-        link: Path.py,
-    },
-    {//7
-        name: Title.php,
-        icon: php,
-        link: Path.php,
-    },
-]
+     {//0
+         name: Title.html,
+         icon: html,
+         link: Path.html,
+     },
+     {//1
+         name: Title.css,
+         icon: css,
+         link: Path.css,
+     },
+     {//2
+         name: Title.js,
+         icon: js,
+         link: Path.js,
+     },
+     {//3
+         name: Title.ts,
+         icon: ts,
+         link: Path.ts,
+     },
+     {//4
+         name: Title.dart,
+         icon: dart,
+         link: Path.dart,
+     },
+     {//5
+         name: Title.java,
+         icon: java,
+         link: Path.java,
+     },
+     {//6
+         name: Title.py,
+         icon: py,
+         link: Path.py,
+     },
+     {//7
+         name: Title.php,
+         icon: php,
+         link: Path.php,
+     },
+ ]
 
 export const EtcData = [
     {//0
@@ -216,7 +216,7 @@ export const CuddData = [
         lan: EtcData[0]
     },
     {
-        lan: EtcData[4]
+        lan: EtcData[7]
     },
 ]
 
@@ -228,7 +228,7 @@ export const RooData = [
         lan: EtcData[1]
     },
     {
-        lan: EtcData[4]
+        lan: EtcData[7]
     },
 ]
 
@@ -237,10 +237,10 @@ export const MasData = [
         lan: ProgLanData[7]
     },
     {
-        lan: EtcData[2]
+        lan: EtcData[3]
     },
     {
-        lan: EtcData[3]
+        lan: EtcData[5]
     },
     {
         lan: OsData[2]
@@ -248,6 +248,15 @@ export const MasData = [
 ]
 
 export const EdaData = [
+    {
+        lan : ProgLanData[3]
+    },
+    {
+        lan: EtcData[2]
+    },
+    {
+        lan: EtcData[5]
+    },
     {
         lan: OtherData[0]
     },
@@ -267,7 +276,7 @@ export const DreData = [
         lan: OtherData[2]
     },
     {
-        lan: EtcData[4]
+        lan: EtcData[7]
     },
 ]
 
@@ -282,7 +291,7 @@ export const ChaData = [
         lan: OtherData[2]
     },
     {
-        lan: EtcData[4]
+        lan: EtcData[7]
     },
 ]
 
