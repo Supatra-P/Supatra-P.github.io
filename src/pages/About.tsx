@@ -64,13 +64,13 @@ export function About() {
                     <HeadTitle title='About' />
                     <Content>
                         <Desc>
-                            I am constantly interested in improving my&nbsp;technical skills so that I can create beautiful web applications and mobile applications, and I want to be a full-stack developer in the future. I enjoy taking on challenges and learning new things, which makes me enthusiastic about&nbsp;my work.
+                            I am constantly interested in improving my&nbsp;technical skills so that I can create beautiful web applications and mobile applications, and I want to be a full-stack developer in the future I enjoy taking on challenges and learning new things, which makes me enthusiastic about&nbsp;my work.
                         </Desc>
                         <a href="https://drive.google.com/file/d/1Lvi7i6_Cr4fAHJCEzVjKQAl4Cts5Rjz3/view?usp=sharing" target="_blank" rel="noreferrer">
                             <ResmBox>
                                 <div style={{ height: "calc(100vw/18)" }}></div>
                                 <p>Here's my</p>
-                                <a href="https://drive.google.com/file/d/1Lvi7i6_Cr4fAHJCEzVjKQAl4Cts5Rjz3/view?usp=sharing" target="_blank" rel="noreferrer"><b>RESUME/CV</b></a>
+                                <b>RESUME/CV</b>
                                 <p>ー Oct 2023</p>
                             </ResmBox>
                         </a>
